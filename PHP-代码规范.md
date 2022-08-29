@@ -202,7 +202,7 @@ class ClassName {
 }
 ```
 
-### 方法参数
+### 方法的参数
 
 - 所有参数必须有类型提示，最好不要使用“mixed”作为类型提示。
 - 在参数列表中，每个逗号前不能有空格，逗号后必须有一个空格。
@@ -249,6 +249,17 @@ abstract class ClassName {
     }
 }
 ```
+
+### 方法的返回值
+
+- 必须标注返回值类型，不能出现 `mixed` 类型。
+- 返回值类型和“冒号”之间必须有一个空格，如 `public function foobar(): string`。
+- 如果方法不能返回预期的类型，建议预期类型的“空值”；比如：
+  * string 的空值：空字符串
+  * array 的空值：空数组
+  * object 的空值：null
+  * int/float 的空值：0
+  * Collection 的空值：一个空 Collection
 
 ### 方法与函数调用
 
