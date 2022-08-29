@@ -556,7 +556,6 @@ $value = implode(',', array_map(function ($v) {
 
 ```php
 <?php
-// 推荐
 function foobar($a) {
     doSomething();
     
@@ -565,32 +564,21 @@ function foobar($a) {
 ```
 
 
-可以和 if 判断写在同一行，但下面应该留下一个空行来方便阅读。 
+如果 return/continue 不是代码块的最后一行，那么它的下方应该留下一个空行。 比如：
 
 ```php
 <?php
-if ($a > 0) return;
-doSomething();
-
 // 推荐
-if ($a > 0) return;
-
-doSomething();
-```
-
-```php
-<?php
-// 禁止
-foreach ($data as $v) {
-    if ($v > 0) continue;
-    $v = foobar($v);
+function foobar($a) {
+    if (!$a) return;
+    
+    doSomething();
 }
 
-// 推荐
-foreach ($data as $v) {
-    if ($v > 0) continue;
+foreach ($list as $item) {
+    if (!$item) continue;
     
-    $v = foobar($v);
+    $item = foobar($item);
 }
 ```
 
