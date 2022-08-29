@@ -8,8 +8,8 @@
 - 对于老代码、老类上的小范围修改延续该类的原有风格以保持局部的代码格式一致性，后续重构逐步演进
 
 ## 规范用语与标签说明
-- 可以、【参考】：表示允许操作
-- 最好、【推荐】：最优的处理方式，非强制要求
+- 可以、参考：表示允许操作
+- 最好、推荐：最优的处理方式，但不是强制要求
 - 一般：正常情况下按照规范执行，除非有特殊情况
 - 必须：强制要求
 - 没有以上用语的内容为强制要求
@@ -28,9 +28,6 @@
 - 命名长度：不超过 40 个字符，最好不超过 25 个字符
 - 方法内代码块长度不超过两屏（80 行），最好不超过一屏（40 行）；超过了要求拆分方法
 - 方法内代码块嵌套层级不超过 4 级，最好不超过 3 级；超过了要求重构逻辑或抽象方法
-
-## 工具配置
-- [PhpStorm 配置指南](https://github.com/baixing/haojing/wiki/PhpStorm-配置指南)
 
 ## 代码检查
 - 提交代码和 Code Review 时按代码规范进行代码检查
@@ -577,9 +574,4 @@ $value = implode(',', array_map(function ($v) {
 ### 文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
-- [PHP 代码规范](https://github.com/baixing/Law/wiki/PHP-代码规范)
-- [百姓网 PHP 编码规范 2010-09-16](http://iweb.baixing.com/wiki/index.php/PHP编码规范)
-
-## 相关规范
-- [MySQL 开发规范](https://github.com/baixing/haojing/wiki/MySQL开发规范)
-- [MySQL 规范化建表](https://github.com/baixing/haojing/wiki/Mysql规范化建表)
+- [百姓网 PHP 代码规范](https://github.com/baixing/Law/wiki/PHP-代码规范)
