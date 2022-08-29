@@ -260,6 +260,24 @@ abstract class ClassName {
   * object 的空值：null
   * int/float 的空值：0
   * Collection 的空值：一个空 Collection
+- 如果返回值是数组，必须清晰的标注数组的结构。如果某个字段是可选的，也需要标出。比如下面的例子：
+
+```php
+<?php
+
+/**
+ *
+ * @return array [
+ *     'order_id' => 1111,
+ *     'subtotal' => 5.99,
+ *     'comment'  => '顾客备注', // 可选；如果顾客没有填写备注，该字段不会出现。
+ * ]
+ */
+function foobar(): array
+{
+    return doSomething();
+}
+```
 
 ### 方法与函数调用
 
