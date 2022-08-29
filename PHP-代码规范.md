@@ -515,14 +515,40 @@ $value = implode(',', array_map(function ($v) {
 },$uid));
 ```
 
+### return 和 continue
+
+可以和 if 判断写在同一行，但下面应该留下一个空行来方便阅读。 
+
+```php
+<?php
+// 禁止
+if ($a > 0) return;
+doSomething();
+
+// 推荐
+if ($a > 0) return;
+
+doSomething();
+```
+
+```php
+<?php
+// 禁止
+foreach ($data as $v) {
+    if ($v > 0) continue;
+    $v = foobar($v);
+}
+
+// 推荐
+foreach ($data as $v) {
+    if ($v > 0) continue;
+    
+    $v = foobar($v);
+}
+```
+
 ### 函数使用
 - 代码可读性考虑，禁用 `extract()`、`create_function()` 函数
-
-## 修订说明
-- 考虑到目前代码风格不一，结合 PSRs 规范、原来的百姓网编码规范以及现有代码习惯综合考虑，形成了本套编码规范
-- 本套编码规范与 PSRs 规范主要区别
- - 缩进采用 tab，不用空格
- - 类声明、函数声明、方法声明的 `{` 不换行
 
 ### 文献
 
