@@ -36,46 +36,6 @@
  - 红色为代码有错误，如没有写结尾的 `;` 或 `{}` 未匹配成对等
  - 编辑区右侧滚动条最顶部显示绿色的勾，标识代码已整理干净
 
-### 代码示例
-
-```php
-<?php
-// nanzhimin@baixing.com
-
-namespace Vendor\Package;
-
-use FooClass;
-use BarClass as Bar;
-use OtherVendor\OtherPackage\BazClass;
-
-/**
- * 这个类是用于做代码示例的
- */
-abstract class ClassName extends ParentClass implements \ArrayAccess, \Countable {
-    const CONST_NAME = 'nothing';
-
-    protected static $foo;
-
-    abstract protected function zim();
-
-    final public static function bar() {
-        // method body
-    }
-
-    /**
-     * 这个是用来做注释描述的函数
-     * 下面几行的参数类型描述对齐为建议非强制，PhpStorm 自动格式化支持这里的对齐，对齐更加直观
-     * 
-     * @param int   $arg1 参数1
-     * @param bool  $arg2 参数2
-     * @param array $arg3 参数3
-     */
-    public function fooBarBaz($arg1, &$arg2, $arg3 = []) {
-        // method body
-    }
-}
-```
-
 ## 编码规范细节
 
 ### PHP文件
