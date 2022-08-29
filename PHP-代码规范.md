@@ -528,11 +528,23 @@ $value = implode(',', array_map(function ($v) {
 
 ### return 和 continue
 
+如果 return 是代码块的最后一行，那么它的上方应该留有一个空行。比如：
+
+```php
+<?php
+// 推荐
+function foobar($a) {
+    doSomething();
+    
+    return true;
+}
+```
+
+
 可以和 if 判断写在同一行，但下面应该留下一个空行来方便阅读。 
 
 ```php
 <?php
-// 禁止
 if ($a > 0) return;
 doSomething();
 
