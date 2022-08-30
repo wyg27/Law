@@ -242,6 +242,25 @@ abstract class ClassName {
 
 - 【必须】必须标注返回值类型，不能出现 `mixed` 类型。
 - 【必须】返回值类型和“冒号”之间必须有一个空格，如 `public function foobar(): string`。
+- 【必须】不能出现啰嗦的 bool 返回值；比如：
+```php
+<?php
+// 禁止
+function foobar(int $a): bool
+{
+    if ($a > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 应该
+function foobar(int $a): bool
+{
+    return $a > 0;
+}
+```
 - 【推荐】如果方法不能返回预期的类型，建议预期类型的“空值”；比如：
   * string 的空值：空字符串
   * array 的空值：空数组
