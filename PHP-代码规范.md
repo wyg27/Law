@@ -154,7 +154,7 @@ echo $order_id;
 
 ### 常量
 
-- 【必须】类常量必须使用全部大写，单词间使用 `_` 分隔
+- 【必须】所有常量必须使用全部大写，单词间使用 `_` 分隔
 
 ```php
 <?php
@@ -263,7 +263,7 @@ abstract class ClassName {
  * ]
  */
 function foobar(array $data) {
-
+    // do something
 }
 ```
 
@@ -290,7 +290,7 @@ function foobar(int $a): bool
     return $a > 0;
 }
 ```
-- 【推荐】如果方法不能返回预期的类型，建议预期类型的“空值”；比如：
+- 【推荐】如果方法不能返回预期的类型，建议返回预期类型的“空值”；比如：
   * string 的空值：空字符串
   * array 的空值：空数组
   * object 的空值：null
