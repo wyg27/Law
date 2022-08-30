@@ -141,7 +141,16 @@ class ClassName extends ParentClass implements
 
 ### 变量
 - 【必须】消灭“魔法数字”，必须用变量或常量（或枚举值）代替并配合注释。
-- 【推荐】避免无意义的临时变量。
+- 【推荐】避免无意义的临时变量。比如：
+```php
+<?php
+
+$order_id = $order['id']; // 毫无意义，典型的废话
+echo $order_id;
+
+$order_id = $driver_list[0]['orders'][0]['id']; // 有意义，让代码更具可读性。
+echo $order_id;
+```
 
 ### 常量
 
