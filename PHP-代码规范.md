@@ -89,7 +89,6 @@
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -110,7 +109,6 @@ use OtherVendor\OtherPackage\BazClass;
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -127,7 +125,6 @@ class ClassName extends ParentClass implements \ArrayAccess, \Countable {
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -149,7 +146,6 @@ class ClassName extends ParentClass implements
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -168,7 +164,6 @@ class ClassName {
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -190,7 +185,6 @@ class ClassName {
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -213,7 +207,6 @@ class ClassName {
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
@@ -234,7 +227,6 @@ class ClassName {
 
 ```php
 <?php
-// nanzhimin@baixing.com
 
 namespace Vendor\Package;
 
