@@ -240,6 +240,20 @@ abstract class ClassName {
     }
 }
 ```
+- 【必须】参数是数组时，用这种方式进行注释：
+```php
+<?php
+/**
+ * @param array $data = [ // 来自客户端的完整请求
+ *     'order_id'    => 123,
+ *     'grand_total' => 5.99,
+ *     'tips'        => 1.99,
+ * ]
+ */
+function foobar(array $data) {
+
+}
+```
 
 ### 方法的返回值
 
@@ -286,23 +300,6 @@ function foobar(int $a): bool
 function foobar(): array
 {
     return doSomething();
-}
-```
-
-### 当参数或返回值是数组时的注释
-
-- 【一般】参数是数组时，用这种方式进行注释：
-```php
-<?php
-/**
- * @param array $data = [ // 来自客户端的完整请求
- *     'order_id'    => 123,
- *     'grand_total' => 5.99,
- *     'tips'        => 1.99,
- * ]
- */
-function foobar(array $data) {
-
 }
 ```
 
