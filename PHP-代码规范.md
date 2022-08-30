@@ -217,10 +217,9 @@ class ClassName {
 }
 ```
 
-abstract, final 和 static：
-
-- 【必须】当存在时，abstract 和 final 声明必须在可见性声明之前
-- 【必须】当存在时，static 声明必须在可见性声明之后
+- 【必须】abstract, final 和 static：
+  - 当存在时，abstract 和 final 声明必须在可见性声明之前
+  - 当存在时，static 声明必须在可见性声明之后
 
 ```php
 <?php
