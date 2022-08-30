@@ -592,6 +592,11 @@ foreach ($list as $item) {
 - 【必须】代码可读性考虑，禁用 `extract()`、`create_function()` 函数
 - 【一般】使用 `strtotime()` 生成相对时间的时间戳，而不是类似 `$tow_days_ago = time() -> 3600 * 24 * 2` 这样的操作。
 
+## 关于 Hack 代码
+> 所谓“Hack 代码”，指为了应对 bug 的临时解决方案。
+
+- 写完 Hack 代码后，必须在 Jira 上开设一个对应的任务分配给自己和相关同事，然后妥善处理相关代码。
+
 ### 文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
