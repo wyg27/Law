@@ -599,7 +599,11 @@ foreach ($list as $item) {
 
 - 写完 Hack 代码后，必须在 Jira 上开设一个对应的任务分配给自己和相关同事，然后妥善处理相关代码。
 
-### 文献
+### 错误处理
+- 【一般】涉及业务逻辑、流程处理的部分，出错时应该抛出异常，而不是将错误状态码到处传递。
+- 【可以】只要有恰当的理由，可以创建自定义异常；否则，尽量使用 PHP 提供的异常。
+
+## 参考文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
 - [百姓网 PHP 代码规范](https://github.com/baixing/Law/wiki/PHP-代码规范)
