@@ -65,7 +65,7 @@
 ### 代码注释
 
 - 【必须】注释是代码的一部分，必须随着代码的更新而更新。
-- 【必须】注释规范遵循 [PHP Doc 规范](https://www.phpdoc.org/docs/latest/references/phpdoc/index.html)
+- 【必须】注释规范遵循 [PHP Doc 规范](https://docs.phpdoc.org/3.0/guide/references/phpdoc/tags/index.html#tag-reference)
 - 【必须】所有核心关键方法、函数注释必须包含描述、参数说明、返回值说明。所谓“核心关键方法、函数”是指可能会被多次调用的方法或核心类中的方法。
 - 【推荐】代码不明确的地方建议增加注释，存在复杂功能逻辑要求有明确的描述性注释
 - 【可以】注释可以用中文
