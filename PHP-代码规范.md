@@ -653,8 +653,9 @@ foreach ($list as $item) {
   - 方便单元测试：有些第三方类库在进行测试时是有成本的，只有封装后才可能对其进行模拟。
 
 ## 代码可读性
+- 【推荐】《[PHP 代码简洁之道（PHP Clean Code）](https://learnku.com/laravel/t/7774/the-conciseness-of-the-php-code-php-clean-code)》
 - 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
-- 【推荐】阅读《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
+- 【推荐】《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
 
 ## 参考文献
 
