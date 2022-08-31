@@ -410,6 +410,12 @@ public function getAccessToken($uid) {
 $token = $this->getAccessToken($uid);
 ```
 
+### 类的单例模式
+- 【一般】除非必要，否则不要使用单例模式。参考《[我为什么不推荐使用单例模式？又有何替代方案？](https://blog.csdn.net/liyf2/article/details/108944916)》。绝大多数情况下，单例模式都可以被以下方案完美的替代：
+  - 工厂模式
+  - Laravel 提供的 IOC 容器
+  - 程序员自己合理封装代码，保证不要在同一个生命周期内创建两个相同的对象
+
 ### 控制结构的代码基本规范
 
 - 【推荐】控制关键字后必须有一个空格
