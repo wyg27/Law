@@ -53,3 +53,16 @@ $order = Order::firstOrNew([
 $order->subtotal = 10;
 $order->save();
 ```
+
+## 给予 model 的复杂查询/常用查询
+
+```php
+<?php
+// 假设场景：需要查询“成年男性用户”。
+
+// 可读性低
+$target_customers = Customer::where('gender', 'male')->where('age', '>', 16)->get();
+
+// 可读性高（借助 model 的 scope ）
+$target_customers = Customer::adult()->get();
+```
