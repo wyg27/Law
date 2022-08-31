@@ -655,6 +655,7 @@ foreach ($list as $item) {
 ## 代码可读性
 - 【推荐】《[PHP 代码简洁之道（PHP Clean Code）](https://learnku.com/laravel/t/7774/the-conciseness-of-the-php-code-php-clean-code)》
 - 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
+- 【推荐】《[提升正则可读性的六种方法](https://taoshu.in/regex-readability.html)》
 - 【推荐】《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
 
 ## 参考文献
