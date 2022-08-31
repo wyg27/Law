@@ -65,4 +65,9 @@ $target_customers = Customer::where('gender', 'male')->where('age', '>', 16)->ge
 
 // 可读性高（借助 model 的 scope ）
 $target_customers = Customer::adult()->get();
+
+// 借助可以传递参数的 scope，你可以写出更灵活的语句。
+$target_customers = Customer::male()     /* 男性 */
+                            ->ageGTE(16) /* 大于等于16岁 */
+                            ->get();
 ```
