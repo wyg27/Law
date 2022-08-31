@@ -648,6 +648,7 @@ foreach ($list as $item) {
 
 ## 代码可读性
 - 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
+- 【推荐】阅读《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
 
 ## 参考文献
 
