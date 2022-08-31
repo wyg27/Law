@@ -1,4 +1,4 @@
-## 创建 model 对象时
+## 创建 model 对象
 
 ```php
 <?php
@@ -16,7 +16,7 @@ $order = Order::create([
 ]);
 ```
 
-## 更新 model 对象时
+## 更新 model 对象
 
 ```php
 <?php
@@ -31,4 +31,25 @@ $order->save();
 Order::where('id', 111)->update([
     'subtotal' => 10,
 ]);
+```
+
+## 如果 model 对象存在就更新它，否则新建对象
+
+```php
+<?php
+
+// 可读性低
+$order = Order::where('id', 111)->first();
+if (!$order) {
+    $order = new Order();
+}
+$order->subtotal = 10;
+$order->save();
+
+// 可读性高
+$order = Order::firstOrNew([
+    'id' => 111,
+]);
+$order->subtotal = 10;
+$order->save();
 ```
