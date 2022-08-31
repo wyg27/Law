@@ -646,6 +646,9 @@ foreach ($list as $item) {
   - 方便对该类库进行替换。如果没有封装，就会在项目中留下众多与该类库紧密相关的代码，难以清除。
   - 方便单元测试：有些第三方类库在进行测试时是有成本的，只有封装后才可能对其进行模拟。
 
+## 代码可读性
+- 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
+
 ## 参考文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
