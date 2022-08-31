@@ -654,8 +654,8 @@ foreach ($list as $item) {
 
 ## 代码可读性
 - 【推荐】SOLID 原则
-  - 《[图解你身边的 SOLID 原则]》(https://segmentfault.com/a/1190000022384751)
-  - 《[超易懂！原来SOLID原则要这么理解！]》(https://www.cnblogs.com/chanshuyi/p/how-to-understand-solid-principle.html)
+  - 《[图解你身边的 SOLID 原则](https://segmentfault.com/a/1190000022384751)》
+  - 《[超易懂！原来SOLID原则要这么理解！](https://www.cnblogs.com/chanshuyi/p/how-to-understand-solid-principle.html)》
   - 《[设计模式之SOLID原则](https://learnku.com/docs/shxdledu/solid-principle-of-design-pattern/9281)》
 - 【推荐】《[PHP 代码简洁之道（PHP Clean Code）](https://learnku.com/laravel/t/7774/the-conciseness-of-the-php-code-php-clean-code)》
 - 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
