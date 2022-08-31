@@ -54,7 +54,7 @@ $order->subtotal = 10;
 $order->save();
 ```
 
-## 给予 model 的复杂查询/常用查询
+## 基于 model 的复杂查询/常用查询
 
 ```php
 <?php
