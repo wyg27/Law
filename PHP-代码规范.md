@@ -316,7 +316,7 @@ function foobar(): array
     return doSomething();
 }
 
-// 例外
+// 例外: 范例1
 function foobar(): array
 {
     return [
@@ -324,6 +324,20 @@ function foobar(): array
         'subtotal' => 5.99 + $tips,
         'comment'  => '顾客备注',
     ];
+}
+
+// 例外: 范例2
+function foobar(): array
+{
+    $data = array_map(function($order) {
+        return [
+        'order_id' => $order->id,
+        'subtotal' => $order->subtotal,
+        'comment'  => $order->comment,
+    ];
+    }, $orders);
+
+    return data;
 }
 ```
 
