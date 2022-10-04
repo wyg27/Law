@@ -716,6 +716,10 @@ foreach ($list as $item) {
 
 - 【推荐】《[一张图彻底搞懂 MySQL 的锁机制](https://learnku.com/articles/39212)》
 
+## PHP 参考文献
+
+- 【推荐】《[PHP 内存泄漏分析定位](https://juejin.cn/post/6844903575550738446)》
+
 ## 参考文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
