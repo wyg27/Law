@@ -712,6 +712,10 @@ foreach ($list as $item) {
 - 【推荐】《[彻底搞懂迪米特原则在代码中究竟是如何体现的](https://juejin.cn/post/6992938346192322596)》
 - 【推荐】《[如何无痛降低 if else 面条代码复杂度](https://juejin.cn/post/6844903502611759117)》
 
+## 数据库基础概念
+
+- 【推荐】《[一张图彻底搞懂 MySQL 的锁机制](https://learnku.com/articles/39212)》
+
 ## 参考文献
 
 - [PHP Standards Recommendations](http://www.php-fig.org/psr/)
