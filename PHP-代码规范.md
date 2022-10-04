@@ -704,10 +704,12 @@ foreach ($list as $item) {
   - 《[图解你身边的 SOLID 原则](https://segmentfault.com/a/1190000022384751)》
   - 《[超易懂！原来SOLID原则要这么理解！](https://www.cnblogs.com/chanshuyi/p/how-to-understand-solid-principle.html)》
   - 《[设计模式之SOLID原则](https://learnku.com/docs/shxdledu/solid-principle-of-design-pattern/9281)》
+  - 《[程式如何正確撰寫 ? | 物件導向程式設計](https://devs.tw/post/439)》
 - 【推荐】《[PHP 代码简洁之道（PHP Clean Code）](https://learnku.com/laravel/t/7774/the-conciseness-of-the-php-code-php-clean-code)》
 - 【推荐】《[如何提高 model 操作代码的可读性](https://facedrive.atlassian.net/wiki/spaces/FD/pages/73334824/model)》
 - 【推荐】《[提升正则可读性的六种方法](https://taoshu.in/regex-readability.html)》
 - 【推荐】《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
+- 【推荐】《[彻底搞懂迪米特原则在代码中究竟是如何体现的](https://juejin.cn/post/6992938346192322596)》
 
 ## 参考文献
 
