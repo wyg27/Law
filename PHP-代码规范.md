@@ -710,6 +710,7 @@ foreach ($list as $item) {
 - 【推荐】《[提升正则可读性的六种方法](https://taoshu.in/regex-readability.html)》
 - 【推荐】《[编写可读代码的艺术](https://book.douban.com/subject/10797189/)》
 - 【推荐】《[彻底搞懂迪米特原则在代码中究竟是如何体现的](https://juejin.cn/post/6992938346192322596)》
+- 【推荐】《[如何无痛降低 if else 面条代码复杂度](https://juejin.cn/post/6844903502611759117)》
 
 ## 参考文献
 
