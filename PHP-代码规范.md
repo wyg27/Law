@@ -455,6 +455,7 @@ $token = $this->getAccessToken($uid);
   - 程序员自己合理封装代码，保证不要在同一个生命周期内创建两个相同的对象
 
 ### Laravel 框架中的 model
+- 【必须】定义 model 之间的“关系”时，采用驼峰命名法，首字母大写。比如 `orderLogs` 。
 - 【推荐】Model 中只能存在以下内容：
   - 与其它 model 的关系
   - 常量的定义（建议用枚举替代）
