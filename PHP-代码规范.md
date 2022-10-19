@@ -713,7 +713,7 @@ foreach ($list as $item) {
 - 【推荐】《[彻底搞懂迪米特原则在代码中究竟是如何体现的](https://juejin.cn/post/6992938346192322596)》
 - 【推荐】《[如何无痛降低 if else 面条代码复杂度](https://juejin.cn/post/6844903502611759117)》
 - 【推荐】《[代码质量是优秀程序员的底线，你居然说不重要？](https://juejin.cn/post/6844903454880563214)》
-- 【推荐】《[迪米特法则(LOD 又名: 最少知道原则)]》(https://www.cnblogs.com/yaopengfei/p/7118220.html)
+- 【推荐】《[迪米特法则(LOD 又名: 最少知道原则)](https://www.cnblogs.com/yaopengfei/p/7118220.html)》
 
 ## 数据库基础概念
 
